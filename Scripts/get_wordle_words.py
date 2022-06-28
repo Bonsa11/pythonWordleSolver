@@ -31,6 +31,6 @@ def find_possible_words(poss_words, red_set, green_set, yellow_set):
 
     scores = get_scores(poss_words, alphabet)
 
-    print(f'the highest scoring words are {scores[0:4]}')
+    print(f'the highest scoring words are {scores[:4]}')
 
     return poss_words
